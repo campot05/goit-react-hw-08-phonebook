@@ -63,8 +63,6 @@ export const refreshUser = createAsyncThunk(
       // If there is a token, add it to the HTTP header and perform the request
       setAuthHeader(persistedToken);
       const res = await axios.get('/users/current');
-      console.log(res);
-      console.log(state.auth);
       return res.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);
