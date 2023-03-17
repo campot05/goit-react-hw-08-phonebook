@@ -13,6 +13,10 @@ export const ContactList = () => {
     el.name.toLocaleLowerCase().includes(filter.toLocaleLowerCase().trim())
   );
 
+  //   useEffect(() => {
+  //     dispatch(fetchContacts());
+  //   }, [dispatch]);
+
   return (
     <ul className={css.list}>
       {filteredContacts.map(({ id, name, number }) => {
