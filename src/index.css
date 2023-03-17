@@ -13,3 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.notFound {
+  font-size: 46px;
+  margin: 250px auto 0px auto;
+  padding: 0;
+}
