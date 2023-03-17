@@ -1,36 +1,32 @@
 .contactForm {
-  width: 275px;
-  margin: 0 auto;
-  border: 1px solid black;
-  padding: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 350px;
+  margin: 60px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(25, 118, 210);
+  padding: 30px;
 }
 
 .btn {
-  background: none;
-  border: solid 2px #474544;
-  color: #474544;
+  width: 334;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: rgb(25, 118, 210);
+  color: white;
+  border-radius: 5px;
+  padding: 15px 12px;
+  border: none;
   cursor: pointer;
-  display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
-  font-size: 0.875em;
-  font-weight: bold;
-  outline: none;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  transition: all 0.3s;
-  margin-top: 10px;
 }
 
 .btn:hover {
-  background: #474544;
-  color: #f2f3eb;
+  background-color: rgba(25, 118, 210, 0.9);
 }
 
-.input {
+/* .input {
   margin: 5px 0;
   padding: 5px 10px;
   font-size: 14px;
   color: black;
-}
+} */
