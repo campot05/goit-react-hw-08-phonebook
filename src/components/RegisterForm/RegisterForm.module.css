@@ -1,10 +1,44 @@
 .form {
-	width: 320px;
- }
- 
- .label {
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 16px;
- }
- 
+  width: 320px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.button {
+  width: 100%;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: rgb(25, 118, 210);
+  color: white;
+  border-radius: 5px;
+  margin: 0;
+  padding: 15px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(25, 118, 210, 0.9);
+}
+
+.form {
+  width: 350px;
+  margin: 60px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.input {
+  width: 100%;
+}

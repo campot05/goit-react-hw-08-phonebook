@@ -16,7 +16,9 @@
   color: #1976d2;
   border-radius: 5px;
   margin: 0;
-  padding: 6px 12px;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover {

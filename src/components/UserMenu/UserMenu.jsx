@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/auth-operations';
 import { useAuth } from 'hooks';
@@ -19,13 +18,10 @@ export const UserMenu = () => {
     <div className={css.wrapper}>
       <p className={css.username}>Welcome, {user.name}</p>
       <Stack spacing={2} direction="row">
-        <Button className={css.button} onClick={() => handleLogOut()}>
+        <button className={css.button} onClick={() => handleLogOut()}>
           Logout
-        </Button>
+        </button>
       </Stack>
-      {/* <button type="button" onClick={() => handleLogOut()}>
-        Logout
-      </button> */}
     </div>
   );
 };
