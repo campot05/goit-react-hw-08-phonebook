@@ -7,3 +7,19 @@
 .username {
   font-weight: 700;
 }
+
+.button {
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 10px;
+  background-color: white;
+  color: #1976d2;
+  border-radius: 5px;
+  margin: 0;
+  padding: 6px 12px;
+}
+
+.button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}

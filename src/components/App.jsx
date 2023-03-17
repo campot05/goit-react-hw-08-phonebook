@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useAuth } from 'hooks';
 import { Route, Routes } from 'react-router-dom';
-import { AppBar } from './AppBar/AppBar';
+import { AppBars } from './AppBar/AppBar';
 import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { refreshUser } from 'redux/auth/auth-operations';
@@ -21,7 +21,7 @@ export const App = () => {
     <b>User loading...</b>
   ) : (
     <>
-      <AppBar />
+      <AppBars />
 
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
